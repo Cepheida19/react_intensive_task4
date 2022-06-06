@@ -1,0 +1,29 @@
+.wrap {
+    background-color: rgba(238, 210, 238, 1.0);
+}
+.navigation {
+    background-color: rgba(79, 79, 79, 1.0);
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    display: block;
+}
+.item {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 90px;
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 18px;
+}
+.container {
+    /* background-color: rgba(238, 210, 238, 1.0); */
+    min-height: 700px
+}
+.footer {
+    height: 50px;
+    text-align: center;
+    border-top: 1px solid rgba(79, 79, 79, 1.0);
+    border-bottom: 1px solid rgba(79, 79, 79, 1.0);
+    padding-top: 15px;
+}

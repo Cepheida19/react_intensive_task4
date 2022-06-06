@@ -1,0 +1,36 @@
+.wrap {
+    text-align: center;
+}
+.header {
+    border-top: 1px solid rgba(79, 79, 79, 1.0);
+    border-bottom: 1px solid rgba(79, 79, 79, 1.0);
+}
+.wrap h2 {
+    padding-top: 8px;
+}
+.name {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.products {
+    width: 1000px;
+    margin: auto;
+}
+.products .item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.result {
+    border: 1px solid rgba(79, 79, 79, 1.0);
+    width: 400px;
+    color: rgba(79, 79, 79, 1.0);
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
