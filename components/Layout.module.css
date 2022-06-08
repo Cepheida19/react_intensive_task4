@@ -17,7 +17,6 @@
     font-size: 18px;
 }
 .container {
-    /* background-color: rgba(238, 210, 238, 1.0); */
     min-height: 700px
 }
 .footer {
@@ -26,4 +25,21 @@
     border-top: 1px solid rgba(79, 79, 79, 1.0);
     border-bottom: 1px solid rgba(79, 79, 79, 1.0);
     padding-top: 15px;
+}
+.open input {
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: rgba(79, 79, 79, 1.0);
+    border-radius: 8px;
+    border: 2px solid rgba(79, 79, 79, 1.0);
+    height: 18px;
+    width: 50px;
+    font-size: 15px;
+    text-align: center;
+}
+.open input:hover {
+    background-color: rgba(238, 210, 238, 1.0);
+    border: 3px solid #fff;
 }
